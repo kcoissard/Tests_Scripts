@@ -1,0 +1,66 @@
+
+/* DEBUT commun à toutes les pages */
+
+/* Definition des polices personnalisees */
+@font-face {
+}
+
+html {
+
+    font-family: 'Dayrom';
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    background-color: black;
+    height: 100%;
+    color: black;
+    margin: auto;
+    /*background: url("images/fond-index.jpg") no-repeat center fixed;
+    background-size: cover;
+    background-attachment: fixed;*/
+}
+
+    .thumbnail {
+        background-color:rgb(255, 190, 20) ; /* icicouleur pour changer la couleur de fond categorie et les canards */
+        border: 2px white solid;
+    }
+
+    .form-control {
+        margin: 10px;
+    }
+
+    .thumbnail .btn-default {
+        margin: 10px;
+        font-weight: bold;
+        text-align: center;
+        font-size: 1.2em;
+    }
+
+    .panel-heading {
+        font-weight: bold;
+        text-align: center;
+        font-size: 1.2em;
+        text-transform: uppercase;
+    }
+
+    .panel-default{
+        margin-top: 20px;
+    }
+
+
+    .panel-default .panel-heading {
+    color: #696969; /* icicouleur pour changer la couleur du titre des panels */
+    font-weight: bold;
+}
+
+    .button_submit{
+        text-align: center;
+    }
+    /* FIN formulaire */
+
+    /* Etoile du champs obligatoire formulaire */
+    .star{
+        color:red;
+    }
